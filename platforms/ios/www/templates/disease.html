@@ -1,0 +1,21 @@
+<ion-view view-title="Diseases">
+    <ion-content ng-class="{expanded:isExpanded}" style="background: url(img/H_transparent.png) center; background-size: cover;">
+        <div>
+            <div class="list animate-fade-slide-in-right">
+                    <div class="item item-text-wrap item-divider">
+                        <h2 class="heading">Please check all that applies to your diagnosis:</h2>
+                    </div>
+                <!--<div class=" item item-divider item-text-wrap">-->
+                    <!--Please check all that applies to your doctor's diagnosis:-->
+                <!--</div>-->
+                <ion-list ng-repeat="data in symptoms">
+                    <ion-checkbox class="heading" ng-model="sym" ng-value="data" ng-change="newValue(data)">{{data}}</ion-checkbox>
+                </ion-list>
+                <div class="item card-item">
+                    <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="next()">Next</button>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

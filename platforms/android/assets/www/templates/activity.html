@@ -1,0 +1,62 @@
+<ion-view view-title="Cough">
+    <ion-content  class="animate-fade-slide-in" style="background: url(img/H_transparent.png) center; background-size: cover;" >
+        <div ng-hide="Showing">
+
+    <div class="item card-item">
+        <div class="item item-text-wrap center">
+            <h3 class="heading">What Type of Cough Do You Have?</h3>
+        </div>
+    </div>
+
+        <div class="item card-item">
+            <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="IntensityCall('Whopping Cough')">Whopping Cough</button>
+        </div>
+
+        <div class="item card-item">
+            <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="IntensityCall('Croup Cough')">Croup Cough</button>
+        </div>
+
+        <div class="item card-item">
+            <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="IntensityCall('Dry Cough')">Dry Cough</button>
+        </div>
+
+        <div class="item card-item">
+            <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="IntensityCall('Wet Cough')">Wet Cough</button>
+        </div>
+</div>
+
+        <div ng-show="Showing">
+            <div class="item card-item">
+                <div class="item item-text-wrap center">
+                    <h3 class="heading">For the next hour press on the button reflecting the intensity of your cough. The app will track your cough and build a histogram that best describes its intensity and frequency to include it in your report.</h3>
+                </div>
+            </div>
+            <div class="item card-item">
+                <button class="button button-full ink" ng-model="intensity" style="background-color: rgb(17, 88, 4); color: white;" ng-click="HistCall('light')">Light Cough</button>
+            </div>
+
+            <div class="item card-item">
+                <button class="button button-full ink" ng-model="intensity" style="background-color: rgb(17, 88, 4); color: white;" ng-click="HistCall('med')">Medium Cough</button>
+            </div>
+
+            <div class="item card-item">
+                <button class="button button-full ink" ng-model="intensity" style="background-color: rgb(17, 88, 4); color: white;" ng-click="HistCall('intense')">Intense Cough</button>
+            </div>
+
+            <div class="item card-item">
+                <div class="item item-text-wrap balanced-900 center">
+                    <h1><time>00:00:00</time></h1>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card" ng-show="Showing">
+            <div class="item item-text-wrap">
+                <canvas id="line" class="chart chart-bar" chart-data="data"
+                        chart-labels="labels" chart-legend="false" chart-series="series"
+                        chart-click="onClick" >
+                </canvas></div>
+        </div>
+    </ion-content>
+</ion-view>

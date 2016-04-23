@@ -1,0 +1,33 @@
+{
+	"coughType": "Whopping Cough",
+	"light": 5,
+	"medium": 2,
+	"intense": 1,
+	"phlegm": "clear/red/green/yellow/brown/black",
+	"gender": "female / male",
+	"age": "0-2 / 2-4 / 4-8 /  9-13 / 14-18 / 19-30 / 31-50 / 51-70 / 71+",
+	"height": "170",
+	"weight": "59",
+	"smoker": "yes / no",
+	"smokingFreq": 0/1/2,
+	"allergies": "allergies input by the user",
+	"symptoms": [
+		"stomachPain",
+		"symtom2",
+		"highFever"
+	],
+	"doctor": "yes / no",
+	"initialDiagnosis": [
+		"bronchitis",
+		"asthma"
+	],
+	"location":{
+		"1": "24.470965613310078,54.345123767416226",
+		"2": "24.470965613310078,54.345123767416226"
+	},
+	"currentLocation":"24.470965613310078,54.345123767416226",
+	"timeStamp":"803720",
+	"fromAPI1": js,
+	"fromAPI2": js2,
+	"fromAPI3": js3
+}

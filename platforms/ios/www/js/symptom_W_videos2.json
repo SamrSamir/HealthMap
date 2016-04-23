@@ -1,0 +1,72 @@
+[
+	{
+		"symptom":"Wheezing",
+		"video":"https://www.youtube.com/watch?v=9S_WwaXY1eE"
+	},{
+		"symptom":"Breathlessness",
+		"video":"https://www.youtube.com/watch?v=wHE4ZxBiHE0"
+	},{
+		"symptom":"Dry cough",
+		"video":"https://www.youtube.com/watch?v=tRVtcUHfJK0"
+	},{
+		"symptom":"Wet cough",
+		"video":"https://www.youtube.com/watch?v=FGpPQzWyoFs"
+	},{
+		"symptom":"Croup cough",
+		"video":"https://www.youtube.com/watch?v=jYZ0YZYjbrY"
+	},{
+        "symptom":"Whoop cough",
+        "video":"https://www.youtube.com/watch?v=FIsQjsUJSiM"
+    },{
+		"symptom":"Sneezing",
+		"video":"https://www.youtube.com/watch?v=LbAO25ouWVs"
+	},{
+		"symptom":"High fever",
+		"video":"none"
+	},{
+		"symptom":"High blood pressure",
+		"video":"https://www.youtube.com/watch?v=3UlAzMEEHwA"
+	},{
+		"symptom":"Severe cold",
+		"video":"none"
+	},{
+		"symptom":"Morning headaches",
+		"video":"none"
+	},{
+		"symptom":"Snore",
+		"video":"https://www.youtube.com/watch?v=N_N81q_iXgk"
+	},{
+		"symptom":"Chills",
+		"video":"https://www.youtube.com/results?search_query=fever+chills++symptoms"
+	},{
+		"symptom":"Runny nose, congestion",
+		"video":"none"
+	},{
+		"symptom":"Phlegm (mucus)",
+		"video":"https://www.youtube.com/watch?v=O5IgP9LLAOM"
+	},{
+		"symptom":"Chest tightness",
+		"video":"meaning of chest tightness"
+	},{
+		"symptom":"Vomiting",
+		"video":"none"
+	},{
+		"symptom":"Seizures",
+		"video":"https://www.youtube.com/watch?v=gUzTE_sG2eQ"
+	},{
+		"symptom":"Loss of appetite",
+		"video":"none"
+	},{
+		"symptom":"Swollen feet",
+		"video":"none"
+	},{
+		"symptom":"Weight loss without trying",
+		"video":"none"
+	},{
+		"symptom":"Turning blue in the lips or fingernails",
+		"video":"none"
+	},{
+		"symptom":"Fatigue or tiredness",
+		"video":"none"
+	}
+]

@@ -1,0 +1,197 @@
+<ion-view view-title="Report" align-title="center">
+    <!--<ion-content style="background: url(img/login.jpg) center; background-size: cover;">-->
+    <ion-content style="background: url(img/H_transparent.png) center; background-size: cover;">
+
+            <div class="content" style="text-align: center">
+
+                <h4 style="color:#000000">{{city}}</h4>
+                <h4 style="color:#000000">{{country}}</h4>
+                <h4 style="color:#000000">{{date}}</h4>
+
+            </div>
+
+
+        <div class="list card">
+
+            <div class="item item-avatar">
+                <img src="img/health.png">
+                <h2>Report</h2>
+                <h3>Health & Symptoms</h3>
+            </div>
+
+            <div class="item item-body">
+                <div class="row">
+                    <div style="text-align: left">
+                        <ul class="list">
+                            <li class="item">
+                              <span style="font-weight: bold">Gender:</span>  {{gender}}
+                            </li>
+                            <li class="item">
+                               <span style="font-weight: bold">Age: </span> {{age}}
+                            </li>
+                            <li class="item">
+                               <span style="font-weight: bold">Height: </span> {{height}}
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div  style="text-align: right" >
+                        <ul class="list">
+                            <li class="item">
+                                <span style="font-weight: bold">Weight: </span> {{weight}}
+                            </li>
+                            <li class="item">
+                                <span style="font-weight: bold">Smoker: </span> {{smoker}}
+                            </li>
+                            <li class="item">
+                               <span style="font-weight: bold">Smoking Freq.:</span> {{smokingFreq}}
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div  style="text-align: right" >
+                    <ul class="list">
+                        <li class="item">
+                           <span style="font-weight: bold"> Phlegm Colour: </span>
+                            <div ng-if="phlegm=='Green'" class="bar bar-loading progress-barGreen">
+                            </div>
+                            <div ng-if="phlegm=='Lime Grenen'"  class="bar bar-loading progress-barLimeGreen">
+                            </div>
+                            <div ng-if="phlegm=='Yellow'"  class="bar bar-loading bar-warning">
+                            </div>
+                            <div ng-if="phlegm=='Translucent'"  class="bar bar-loading bar-default">
+                            </div>
+                            <div ng-if="phlegm=='Gray'"  class="bar bar-loading progress-barGray">
+                            </div>
+                            <div ng-if="phlegm=='Red'"  class="bar bar-loading progress-barRed">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div  style="text-align: right" >
+                    <ul class="list">
+                        <li class="item">
+                            <span style="font-weight: bold"> Cough Type: </span> {{coughType}}
+                        </li>
+                        <li class="item">
+                            <span style="font-weight: bold"> Cough Frequency: </span>
+                            <canvas id="bar" class="chart chart-bar"
+                                    chart-data="data" chart-labels="labels"> chart-series="series"
+                            </canvas>
+                        </li>
+
+                        <li class="item">
+                            <span style="font-weight: bold"> Symptoms: </span>
+                            <div class="card">
+                                <div class="item item-text-wrap">
+                                    <ul class="list">
+                                        <li class="item" ng-repeat="symptom in symptoms">
+                                         {{symptom}}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span style="font-weight: bold"> Allergies: </span>
+                            <div class="card">
+                                <div class="item item-text-wrap">
+                                    {{allergies}}
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span style="font-weight: bold"> Doctor Visit: </span> {{doctor}}
+                        </li>
+                        <li class="item">
+                            <span style="font-weight: bold"> Initial Diagnosis: </span>
+                            <div class="card">
+                                <div class="item item-text-wrap">
+                                    <ul class="list">
+                                        <li class="item" ng-repeat="item in diagnosis">
+                                            {{item}}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="list card">
+
+            <div class="item item-avatar">
+                <img src="img/green-earth.png">
+                <h2>Report</h2>
+                <h3>Environmental Facts</h3>
+            </div>
+
+            <div class="item item-body">
+                <div class="row">
+                    <div style="text-align: left">
+                        <ul class="list">
+                            <li class="item">
+                                <span style="font-weight: bold">Weather:</span>  {{weather}}
+                            </li>
+                            <li class="item">
+                                <span style="font-weight: bold">Weather Description: </span> {{weatherDescription}}
+                            </li>
+                            <li class="item">
+                                <span style="font-weight: bold">Temperature: </span> {{temperature}} &deg;C
+                            </li>
+
+                                <li class="item">
+                                    <span style="font-weight: bold"> Humidity: </span>
+                                    <progress id="progressbar" max="100" value="{{ humidity }}"> </progress>
+                                    <div id="progressbarlabel">{{ humidity}} %</div>
+                                </li>
+
+                            <li class="item">
+                                <span style="font-weight: bold">Pressure </span> {{pressure}} hPa
+                            </li>
+                            <li class="item">
+                                <span style="font-weight: bold">Power Plants </span> {{plants}}
+                            </li>
+                            <li class="item">
+                                <span style="font-weight: bold">Wind Speed:</span> {{windSpeed}} km/h
+                            </li>
+
+                            <li class="item">
+                                <span style="font-weight: bold"> Carbon Intensity: </span>
+
+
+                                <canvas width="220" style="color:#000000" id="line" class="chart chart-line" chart-data="data3"
+                                        chart-labels="labels3"  chart-series="series3"
+                                        chart-click="onClick" >
+                                </canvas>
+
+                            </li>
+
+                            <li class="item">
+                                <span style="font-weight: bold"> CO<sub>2</sub> Emissions and Power Trends: </span>
+
+
+                                    <canvas  width="220"  id="bar2" class="chart chart-bar"
+                                            chart-data="data2" chart-labels="labels2" chart-series="series2">
+                                    </canvas>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

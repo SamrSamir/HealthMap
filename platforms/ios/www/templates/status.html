@@ -1,0 +1,103 @@
+<ion-view view-title="Status">
+    <ion-content ng-class="{expanded:isExpanded}"style="background: url(img/H_transparent.png) center; background-size: cover;" >
+        <div>
+            <div class="list animate-fade-slide-in-right">
+
+<div ng-show="ageShown">
+
+    <div class=" item item-divider">
+        <h3 class="heading"> What allergies do you have?</h3>
+    </div>
+
+    <textarea id="TextArea" ng-model="allergies" ng-keyup="autoExpand($event)" placeholder=""></textarea>
+                    <div class=" item item-divider">
+                        <h3 class="heading"> Select your age range:</h3>
+                    </div>
+                <ion-list>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'0-2'" ng-change="newValue('0-2',allergies)">0-2 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'3-4'" ng-change="newValue('3-4',allergies)">3-4 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'5-8'" ng-change="newValue('5-8',allergies)">5-8 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'9-13'" ng-change="newValue('9-13',allergies)">9-13 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'14-18'" ng-change="newValue('14-18',allergies)">14-18 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'19-30'" ng-change="newValue('19-30',allergies)">19-30 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'31-50'" ng-change="newValue('31-50',allergies)">31-50 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'51-70'" ng-change="newValue('51-70',allergies)">51-70 years</ion-radio>
+                    <ion-radio class="heading" ng-model="choice" ng-value="'71+'" ng-change="newValue('71+',allergies)">71+ years</ion-radio>
+                </ion-list>
+</div>
+
+<div ng-hide="ageShown">
+
+    <div class=" item item-divider">
+       <h3 class="heading"> Select your gender:</h3>
+    </div>
+    <ion-list>
+        <ion-radio  class="heading" ng-model="gender" ng-value="'male'" ng-change="newValue1('male')"><i class="icon ion-male"></i> Male</ion-radio>
+        <ion-radio  class="heading" ng-model="gender" ng-value="'female'" ng-change="newValue1('female')"><i class="icon ion-female"></i> Female</ion-radio>
+    </ion-list>
+        <!--<div class=" item item-divider">-->
+            <!--Select your weight:-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<a class="item item-icon-left">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<i class="icon ion-ios-body"></i>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="range" min="{{weight.min}}" max="{{weight.max}}" value="{{weight.value}}" step="396" ng-model="weight.value" ng-change="stats(weight.value, height.value)">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<span class="item-note">&ndash;&gt;-->
+                     <!--&lt;!&ndash;Weight: {{weight.value}} Kg&ndash;&gt;-->
+                <!--&lt;!&ndash;</span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+
+
+        <!--<div class=" item item-divider">-->
+            <!--Select your height:-->
+        <!--</div>-->
+                <!--<a class="item item-icon-left">-->
+                    <!--<i class="icon ion-ios-body-outline"></i>-->
+                    <!--<input type="range" min="{{height.min}}" max="{{height.max}}" value="{{height.value}}" step="380" ng-model="height.value" ng-change="stats(weight.value, height.value)">-->
+
+                <!--<span class="item-note">-->
+                     <!--Height: {{height.value}} cm-->
+                <!--</span>-->
+                <!--</a>-->
+
+        <!--<div class="list">-->
+            <!--<ion-md-input placeholder="Weight" highlight-color="royal" type="text" ng-model="weight"></ion-md-input>-->
+            <!--&lt;!&ndash;{{userId}}&ndash;&gt;-->
+            <!--<ion-md-input placeholder="Height" highlight-color="royal" type="text" ng-model="height"></ion-md-input>-->
+        <!--</div>-->
+
+    <ion-item>
+        <ion-label class="heading">Weight (Kg)</ion-label>
+        <input type="text" placeholder="" id="weight">
+    </ion-item>
+
+    <ion-item>
+        <ion-label class="heading">Height (cm)</ion-label>
+        <input type="text" placeholder="" id="height">
+    </ion-item>
+
+
+    <div class=" item item-divider">
+       <h3 class="heading"> Are you a smoker?</h3>
+    </div>
+    <ion-list>
+        <ion-radio class="heading" ng-model="smoker" ng-value="'yes'" ng-change="stats('yes')"><i class="icon ion-thumbsup"></i> Yes</ion-radio>
+        <ion-radio class="heading"ng-model="smoker" ng-value="'no'" ng-change="stats('no')"><i class="icon ion-thumbsdown"></i> No</ion-radio>
+    </ion-list>
+
+</div>
+<div ng-show="showSmoker">
+                <ion-item>
+                    <ion-label class="heading" >How many cigarettes do you smoke daily?</ion-label>
+                    <input type="text" placeholder="" id="dailyFreq">
+                </ion-item>
+
+            <div class="item card-item">
+                <button class="button button-full ink" style="background-color: rgb(17, 88, 4); color: white;" ng-click="next()">Next</button>
+            </div>
+</div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

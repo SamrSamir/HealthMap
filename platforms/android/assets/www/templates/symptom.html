@@ -1,0 +1,21 @@
+<ion-view view-title="Symptoms">
+    <ion-content  ng-class="{expanded:isExpanded}" style="background: url(img/H_transparent.png) center; background-size: cover;">
+        <div>
+            <div class="list animate-fade-slide-in-right">
+                <div class=" item item-divider">
+                    <h3 class="heading">  Please check all that applies to your condition:</h3>
+                </div>
+                <ion-list ng-repeat="data in symptoms">
+                    <ion-checkbox  class="heading" ng-model="sym" ng-value="data.symptom" ng-change="newValue(data.symptom)">{{data.symptom}}</ion-checkbox>
+                </ion-list>
+                <div class=" item item-divider">
+                    <h3 class="heading"> Have you been to a doctor?</h3>
+                </div>
+                <ion-list>
+                    <ion-radio class="heading" ng-model="doctor" ng-value="'yes'" ng-change="stats('yes')"><i class="icon ion-thumbsup"></i> Yes</ion-radio>
+                    <ion-radio  class="heading" ng-model="doctor" ng-value="'no'" ng-change="stats('no')"><i class="icon ion-thumbsdown"></i> No</ion-radio>
+                </ion-list>
+        </div>
+
+    </ion-content>
+</ion-view>

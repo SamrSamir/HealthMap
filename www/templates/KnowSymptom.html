@@ -1,0 +1,30 @@
+<ion-view view-title="Know your symptoms" align-title="left">
+    <!-- <ion-content style="background: url(img/login.jpg) center; background-size: cover;">-->
+
+    <ion-content style="background: url(img/H_transparent.png) center; background-size: cover;" >
+        <div class="item card-item">
+            <div class="item item-text-wrap center">
+                <h3 class="heading">  Not sure what are your symptoms called? Feeling sick but unsure of how to explain it correctly? Get to know the technical terms of your symptoms using our interactive media library as follows.</h3>
+            </div>
+        </div>
+        <ion-list ng-repeat="data in symptoms">
+            <ion-item nav-clear menu-close class="item-icon-right" style="border-bottom: solid 2px  #1f4b6d" ng-click="toggleGroup(data)" ng-class="{active: isGroupShown(data)}" >
+
+                <h2 class="heading">{{data.symptom}}</h2>
+                <!--<p>ionicMaterialMotion.blinds();</p>-->
+                <i class="icon ion-ios-videocam " ng-class="isGroupShown(data) ? 'muted':''"></i>
+            </ion-item>
+            <ion-item class="item-accordion"  ng-show="isGroupShown(data)" ng-if="data.video != 'none'">
+
+                <div class="video-container" >
+                    <iframe class="youtube-player" src="{{convertURL(data.video)}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </ion-item>
+
+        </ion-list>
+
+
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,40 @@
+<ion-view view-title="Phlegm Color">
+    <ion-content ng-class="{expanded:isExpanded}"  style="background: url(img/H_transparent.png) center; background-size: cover;">
+        <div>
+            <div class="item card-item padding-bottom">
+                <div class="item item-text-wrap stable center" style='color: black;'>
+                    <h3 class="heading">What Colour is Your Cough's Phlegm?</h3>
+                </div>
+                </div>
+
+
+
+                <div class="item card-item padding-top">
+                <button class="button button-full ink" style='background-color: rgb(114,135,20); color: white;' ng-click="ColorFunction('Green')">Green</button>
+                </div>
+
+                <div class="item card-item">
+                <button class="button button-full ink" style='background-color: rgb(194,205,66); color: white;' ng-click="ColorFunction('Lime Green')">Lime Green</button>
+                </div>
+
+                <div class="item card-item">
+                <button class="button button-full button-energized ink" ng-click="ColorFunction('Yellow')">Yellow</button>
+                </div>
+
+
+            <div class="item card-item">
+                <button class="button button-full button-light ink" ng-click="ColorFunction('Translucent')">Translucent</button>
+            </div>
+
+
+                <div class="item card-item">
+                <button class="button button-full ink" style='background-color: rgb(118, 116, 119); color: white;' ng-click="ColorFunction('Gray')">Gray</button>
+                </div>
+
+                <div class="item card-item">
+                <button class="button button-full ink" style='background-color: red; color: white;' ng-click="ColorFunction('Red')">Red</button>
+                </div>
+
+        </div>
+    </ion-content>
+</ion-view>
