@@ -41,17 +41,27 @@ Know more about the app at:
 # About the mobile application
 Stay Tuned
 
-<img style="float: center;" src="/../master/readmeScreenshots/mobileApp/main.png?raw=true" alt="Main Menu">
-
 ![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")
 
 Our mobile application’s main menu is show above. There are three items for the user to choose from. By clicking on “Know Your Symptoms”, the user is directed to a symptoms media library. This includes videos about the various respiratory symptoms that users may be suffering from with details about how to identify them and what feelings the user might have during the symptom duration. The interface of this media library is shown below.
 
-<img style="float: right;" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms">
-<img style="float: right;" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms">
-
-
 ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab11.png?raw=true "Know Your Symptoms") ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab12.png?raw=true "Know Your Symptoms")
+
+For the users to map their symptoms, they can use our simple interface to input all data about their health condition in relation to respiratory diseases. Moreover, environmental factors data is automatically retrieved from NASA open data sources to correlate to the users' crowd-sourced health data. Samples of a user's journey to map their symptoms are shown below.
+
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab21.png?raw=true "Map Your Symptoms") 
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab22.png?raw=true "Map Your Symptoms")
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab23.png?raw=true "Map Your Symptoms") 
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab24.png?raw=true "Map Your Symptoms")
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab25.png?raw=true "Map Your Symptoms") 
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab26.png?raw=true "Map Your Symptoms")
+
+To view all of the crowdsourced and climate data collected, users can select to view our health map with markers to denote each and every report submitted. Upon a click of a marker, users can then view a visually detailed report of the information as shown below.
+
+![View Health Map](/../master/readmeScreenshots/mobileApp/tab31.png?raw=true "View Health Map") 
+![View Health Map](/../master/readmeScreenshots/mobileApp/tab32.png?raw=true "View Health Map")
+![View Health Map](/../master/readmeScreenshots/mobileApp/tab33.png?raw=true "View Health Map") 
+![View Health Map](/../master/readmeScreenshots/mobileApp/tab34.png?raw=true "View Health Map")
 
 =====================================================================
 
