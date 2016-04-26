@@ -27,11 +27,7 @@ cough, personal stats, colour of the phlegm, symptoms experienced such as shortn
 itchy eyes, diagnosis of the doctor, if available, and graphical selection of the latest locations that the user has been in. Automatic 
 detection of the user’s current location, and collection of the corresponding environmental factors are also performed.
 
-Our database is updated with user-filled data in realtime for a seamless system user interaction experience. The user can visualise all of
-the crowd-sourced data collected throughout the globe using either our mobile application, or our dedicated web portal. Each marker on our
-world map interface, a symptom map with NASA provided data, represents a report instance. Upon a simple click of such a marker, the user is
-shown a comprehensive and visually rich report of the health and environmental factors information to better conceptualise the relationship
-between them.
+Our database is updated with user-filled data in realtime for a seamless system user interaction experience. The user can visualise all of the crowd-sourced data collected throughout the globe using either our mobile application, or our dedicated web portal. Each marker on our world map interface, a symptom map with NASA provided data, represents a report instance. Upon a simple click of such a marker, the user is shown a comprehensive and visually rich report of the health and environmental factors information to better conceptualise the relationship between them.
 
 Know more about the app at: 
 > https://www.youtube.com/watch?v=gDcVby2cAR4
@@ -43,7 +39,7 @@ Stay Tuned
 
 ![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")
 
-Our mobile application’s main menu is show above. There are three items for the user to choose from. By clicking on “Know Your Symptoms”, the user is directed to a symptoms media library. This includes videos about the various respiratory symptoms that users may be suffering from with details about how to identify them and what feelings the user might have during the symptom duration. The interface of this media library is shown below.
+Our mobile application’s main menu is shown above. There are three items for the user to choose from. By clicking on “Know Your Symptoms”, the user is directed to a symptoms media library. This includes videos about the various respiratory symptoms that users may be suffering from with details about how to identify them and what feelings the user might have during the symptom duration. The interface of this media library is shown below.
 
 ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab11.png?raw=true "Know Your Symptoms") ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab12.png?raw=true "Know Your Symptoms")
 
