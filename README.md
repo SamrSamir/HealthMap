@@ -41,7 +41,17 @@ Know more about the app at:
 # About the mobile application
 Stay Tuned
 
+<img style="float: center;" src="/../master/readmeScreenshots/mobileApp/main.png?raw=true" alt="Main Menu">
 
+![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")
+
+Our mobile application’s main menu is show above. There are three items for the user to choose from. By clicking on “Know Your Symptoms”, the user is directed to a symptoms media library. This includes videos about the various respiratory symptoms that users may be suffering from with details about how to identify them and what feelings the user might have during the symptom duration. The interface of this media library is shown below.
+
+<img style="float: right;" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms">
+<img style="float: right;" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms">
+
+
+![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab11.png?raw=true "Know Your Symptoms") ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab12.png?raw=true "Know Your Symptoms")
 
 =====================================================================
 
@@ -58,3 +68,5 @@ A simple map interface represents all report instances provided by users on a gl
 Each report depicts comprehensive information related to health and environmental factors to better conceptualise the relationship between them. Each report focuses on respiratory diseases, as environmental factors and air quality information largely influence the development of such diseases. As such, each report serves as a promising tool to analyze and study the connections between health and environmental factors on a global scale. This has a direct impact on the study of how the global climate change influences the global health status. 
 
 ![Web Portal 3](/../master/readmeScreenshots/webPortal3.png?raw=true "Generated report")
+
+
