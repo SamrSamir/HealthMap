@@ -35,8 +35,6 @@ Know more about the app at:
 =====================================================================
 
 # About the mobile application
-Stay Tuned
-
 <span style='align: center;'><img align="center" src="/../master/readmeScreenshots/mobileApp/main.png?raw=true" alt="Main Menu"></span>
 
 <!--![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")-->
