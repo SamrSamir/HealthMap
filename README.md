@@ -41,9 +41,20 @@ Know more about the app at:
 # About the mobile application
 Stay Tuned
 
+
+
 =====================================================================
 
 # About the web portal
-Stay Tuned
 
+The HealthMap web portal is a dedicated symptom visualization map, allowing the users to interact with the worldwide crowd-sourced data of health symptoms and related environmental factors. 
 
+![Web Portal 1](/../master/readmeScreenshots/websiteMainPageScreenshot.png?raw=true "Main page")
+
+A simple map interface represents all report instances provided by users on a global scale with localized markers. Interactive aspects of the map permit users to easily zoom in and view all of reports from a certain region or city. The user can view each report separately by simply clicking on the dedicated marker, which directs him/her to a visually rich report representing all collected data and statistics.
+
+![Web Portal 2](/../master/readmeScreenshots/webPortal2.png?raw=true "Symptom map")
+
+Each report depicts comprehensive information related to health and environmental factors to better conceptualise the relationship between them. Each report focuses on respiratory diseases, as environmental factors and air quality information largely influence the development of such diseases. As such, each report serves as a promising tool to analyze and study the connections between health and environmental factors on a global scale. This has a direct impact on the study of how the global climate change influences the global health status. 
+
+![Web Portal 3](/../master/readmeScreenshots/webPortal3.png?raw=true "Generated report")
