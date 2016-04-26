@@ -37,31 +37,20 @@ Know more about the app at:
 # About the mobile application
 Stay Tuned
 
-![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")
+<span style='align: center;'><img align="center" src="/../master/readmeScreenshots/mobileApp/main.png?raw=true" alt="Main Menu"></span>
+
+<!--![Main Menu](/../master/readmeScreenshots/mobileApp/main.png?raw=true "Main Menu")-->
 
 Our mobile application’s main menu is shown above. There are three items for the user to choose from. By clicking on “Know Your Symptoms”, the user is directed to a symptoms media library. This includes videos about the various respiratory symptoms that users may be suffering from with details about how to identify them and what feelings the user might have during the symptom duration. The interface of this media library is shown below.
 
-![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab11.png?raw=true "Know Your Symptoms") ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab12.png?raw=true "Know Your Symptoms")
+<img align="center" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms"><img align="center" src="/../master/readmeScreenshots/mobileApp/tab11.png?raw=true" alt="Know Your Symptoms">
+
+<!--![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab11.png?raw=true "Know Your Symptoms") ![Know Your Symptoms](/../master/readmeScreenshots/mobileApp/tab12.png?raw=true "Know Your Symptoms")-->
 
 For the users to map their symptoms, they can use our simple interface to input all data about their health condition in relation to respiratory diseases. Moreover, environmental factors data is automatically retrieved from NASA open data sources to correlate to the users' crowd-sourced health data. Samples of a user's journey to map their symptoms are shown below.
 
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab21.png?raw=true "Map Your Symptoms") 
-In the first view, users are presented with a view to choose their cough type, which they are now familiar with after they have viewed all the information about them in our media library.
-
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab22.png?raw=true "Map Your Symptoms")
-Next the users are shown a histogram of the frequency and the intensity of their cough. This is accomplished through the easy utilisation of a press of the button corresponding to the intensity of the cough every time they do for an hour. For the purposes of this demo, the time of both of the first two views is limited to 10 seconds after which the users are automatically directed to the next view. However, this can be easily changed to the original intended sampling period of an hour.
-
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab23.png?raw=true "Map Your Symptoms") 
-The users are then required to choose the colour of their phlegm though colour coded buttons.
-
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab24.png?raw=true "Map Your Symptoms")
-Next, the users write down their allergies if any, and select their age group. The app then moves to the next view where users are required to fill information about their personal stats such as gender, weight, height, and smoking frequency, if they smoke.
-
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab25.png?raw=true "Map Your Symptoms") 
- Users are then directed to select all of the symptoms that apply to their case from an extensive list through a simple check. The users are then presented with a yes/no question at the end of the list; whether they have been to a doctor or not. If yes, the users are directed to a similar interface to choose their doctor's initial diagnosis from a list of respiratory diseases. 
-
-![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab26.png?raw=true "Map Your Symptoms")
-If the users have not been to a doctor, they immediately move to a Google map interface where they can easily choose all the locations that they have been to recently. The map is automatically zoomed in to the user's current location for ease of use. At the same instance, NASA climate data is being automatically collected using the coordinates of the user's current location. A submit button appears to the user only after the data request has been sent to assure maximum efficiency. In case of both success or failure of the data delivery, in case that location does not have all the data that we are requesting for, the submit button appears to the user to allow him/her to finish up their report.
+![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab21.png?raw=true "Map Your Symptoms") ![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab22.png?raw=true "Map Your Symptoms") ![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab23.png?raw=true "Map Your Symptoms") ![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab24.png?raw=true "Map Your Symptoms")![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab25.png?raw=true "Map Your Symptoms") ![Map Your Symptoms](/../master/readmeScreenshots/mobileApp/tab26.png?raw=true "Map Your Symptoms")
+In the first view, users are presented with a view to choose their cough type, which they are now familiar with after they have viewed all the information about them in our media library. Next the users are shown a histogram of the frequency and the intensity of their cough. This is accomplished through the easy utilisation of a press of the button corresponding to the intensity of the cough every time they do for an hour. For the purposes of this demo, the time of both of the first two views is limited to 10 seconds after which the users are automatically directed to the next view. However, this can be easily changed to the original intended sampling period of an hour. The users are then required to choose the colour of their phlegm though colour coded buttons. Next, the users write down their allergies if any, and select their age group. The app then moves to the next view where users are required to fill information about their personal stats such as gender, weight, height, and smoking frequency, if they smoke. Users are then directed to select all of the symptoms that apply to their case from an extensive list through a simple check. The users are then presented with a yes/no question at the end of the list; whether they have been to a doctor or not. If yes, the users are directed to a similar interface to choose their doctor's initial diagnosis from a list of respiratory diseases. If the users have not been to a doctor, they immediately move to a Google map interface where they can easily choose all the locations that they have been to recently. The map is automatically zoomed in to the user's current location for ease of use. At the same instance, NASA climate data is being automatically collected using the coordinates of the user's current location. A submit button appears to the user only after the data request has been sent to assure maximum efficiency. In case of both success or failure of the data delivery, in case that location does not have all the data that we are requesting for, the submit button appears to the user to allow him/her to finish up their report.
 
 
 To view all of the crowdsourced and climate data collected, users can select to view our health map with markers to denote each and every report submitted. Upon a click of a marker, users can then view a visually detailed report of the information as shown below.
